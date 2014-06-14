@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>46E18C50-491B-45C0-BB01-D5674A88F937</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DemoForQuickTXTReader</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F02334BD-E222-4462-A86B-4E4BA3F84B68</key>
+		<string>https://github.com/darklinden/StringDecode.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DemoForQuickTXTReader/DemoForQuickTXTReader.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F02334BD-E222-4462-A86B-4E4BA3F84B68</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/darklinden/StringDecode.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F02334BD-E222-4462-A86B-4E4BA3F84B68</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F02334BD-E222-4462-A86B-4E4BA3F84B68</string>
+			<key>IDESourceControlWCCName</key>
+			<string>StringDecode</string>
+		</dict>
+	</array>
+</dict>
+</plist>

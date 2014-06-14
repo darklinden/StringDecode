@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C9E0B5F194BF37600836B60 /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1C9E0B5E194BF37500836B60 /* test.txt */; };
+		201F695317002BC900882036 /* TXTPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 201F695217002BC900882036 /* TXTPageViewController.m */; };
+		2073971716FAFDAB00A2EA2F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2073971616FAFDAB00A2EA2F /* QuartzCore.framework */; };
+		209BFA1216FAD7C200FAB63A /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209BFA1116FAD7C200FAB63A /* CoreText.framework */; };
+		209D416A16F6F21E005EBF1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209D416916F6F21E005EBF1A /* UIKit.framework */; };
+		209D416C16F6F21E005EBF1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209D416B16F6F21E005EBF1A /* Foundation.framework */; };
+		209D416E16F6F21E005EBF1A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209D416D16F6F21E005EBF1A /* CoreGraphics.framework */; };
+		209D417416F6F21E005EBF1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 209D417216F6F21E005EBF1A /* InfoPlist.strings */; };
+		209D417616F6F21E005EBF1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 209D417516F6F21E005EBF1A /* main.m */; };
+		209D417A16F6F21E005EBF1A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 209D417916F6F21E005EBF1A /* AppDelegate.mm */; };
+		209D417C16F6F21E005EBF1A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 209D417B16F6F21E005EBF1A /* Default.png */; };
+		209D417E16F6F21E005EBF1A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 209D417D16F6F21E005EBF1A /* Default@2x.png */; };
+		209D418016F6F21E005EBF1A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 209D417F16F6F21E005EBF1A /* Default-568h@2x.png */; };
+		209D418316F6F21E005EBF1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 209D418216F6F21E005EBF1A /* ViewController.m */; };
+		209D419816F6F24B005EBF1A /* libStringDecode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 209D419416F6F231005EBF1A /* libStringDecode.a */; };
+		209D41A216F6F2EF005EBF1A /* TXTDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 209D419D16F6F2EF005EBF1A /* TXTDocument.m */; };
+		209D41A316F6F2EF005EBF1A /* TXTTileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 209D419F16F6F2EF005EBF1A /* TXTTileView.m */; };
+		209D41B416F70D08005EBF1A /* TXTReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 209D41A116F6F2EF005EBF1A /* TXTReaderViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		209D419316F6F231005EBF1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 209D418F16F6F231005EBF1A /* StringDecode.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 20E6914216F3185B0010A1D7;
+			remoteInfo = StringDecode;
+		};
+		209D419916F6F24F005EBF1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 209D418F16F6F231005EBF1A /* StringDecode.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 20E6914116F3185B0010A1D7;
+			remoteInfo = StringDecode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C9E0B5E194BF37500836B60 /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = test.txt; path = ../test.txt; sourceTree = "<group>"; };
+		201F695117002BC900882036 /* TXTPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXTPageViewController.h; sourceTree = "<group>"; };
+		201F695217002BC900882036 /* TXTPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXTPageViewController.m; sourceTree = "<group>"; };
+		2073971616FAFDAB00A2EA2F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		209BFA1116FAD7C200FAB63A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		209D416616F6F21E005EBF1A /* DemoForTXTReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoForTXTReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		209D416916F6F21E005EBF1A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		209D416B16F6F21E005EBF1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		209D416D16F6F21E005EBF1A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		209D417116F6F21E005EBF1A /* DemoForTXTReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoForTXTReader-Info.plist"; sourceTree = "<group>"; };
+		209D417316F6F21E005EBF1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		209D417516F6F21E005EBF1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		209D417716F6F21E005EBF1A /* DemoForTXTReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoForTXTReader-Prefix.pch"; sourceTree = "<group>"; };
+		209D417816F6F21E005EBF1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		209D417916F6F21E005EBF1A /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		209D417B16F6F21E005EBF1A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		209D417D16F6F21E005EBF1A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		209D417F16F6F21E005EBF1A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		209D418116F6F21E005EBF1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		209D418216F6F21E005EBF1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		209D418F16F6F231005EBF1A /* StringDecode.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = StringDecode.xcodeproj; path = ../../StringDecode/StringDecode.xcodeproj; sourceTree = "<group>"; };
+		209D419C16F6F2EF005EBF1A /* TXTDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXTDocument.h; sourceTree = "<group>"; };
+		209D419D16F6F2EF005EBF1A /* TXTDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXTDocument.m; sourceTree = "<group>"; };
+		209D419E16F6F2EF005EBF1A /* TXTTileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXTTileView.h; sourceTree = "<group>"; };
+		209D419F16F6F2EF005EBF1A /* TXTTileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXTTileView.m; sourceTree = "<group>"; };
+		209D41A016F6F2EF005EBF1A /* TXTReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXTReaderViewController.h; sourceTree = "<group>"; };
+		209D41A116F6F2EF005EBF1A /* TXTReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXTReaderViewController.m; sourceTree = "<group>"; };
+		209D41A716F6F314005EBF1A /* StringDecode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StringDecode.h; path = ../../StringDecode/StringDecode/StringDecode.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		209D416316F6F21E005EBF1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2073971716FAFDAB00A2EA2F /* QuartzCore.framework in Frameworks */,
+				209BFA1216FAD7C200FAB63A /* CoreText.framework in Frameworks */,
+				209D419816F6F24B005EBF1A /* libStringDecode.a in Frameworks */,
+				209D416A16F6F21E005EBF1A /* UIKit.framework in Frameworks */,
+				209D416C16F6F21E005EBF1A /* Foundation.framework in Frameworks */,
+				209D416E16F6F21E005EBF1A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		209D415D16F6F21D005EBF1A = {
+			isa = PBXGroup;
+			children = (
+				1C9E0B5E194BF37500836B60 /* test.txt */,
+				2073971616FAFDAB00A2EA2F /* QuartzCore.framework */,
+				209BFA1116FAD7C200FAB63A /* CoreText.framework */,
+				209D416F16F6F21E005EBF1A /* DemoForTXTReader */,
+				209D416816F6F21E005EBF1A /* Frameworks */,
+				209D416716F6F21E005EBF1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		209D416716F6F21E005EBF1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				209D416616F6F21E005EBF1A /* DemoForTXTReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		209D416816F6F21E005EBF1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				209D416916F6F21E005EBF1A /* UIKit.framework */,
+				209D416B16F6F21E005EBF1A /* Foundation.framework */,
+				209D416D16F6F21E005EBF1A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		209D416F16F6F21E005EBF1A /* DemoForTXTReader */ = {
+			isa = PBXGroup;
+			children = (
+				209D41A616F6F302005EBF1A /* StringDecode */,
+				209D419B16F6F2EF005EBF1A /* TXTReader */,
+				209D417816F6F21E005EBF1A /* AppDelegate.h */,
+				209D417916F6F21E005EBF1A /* AppDelegate.mm */,
+				209D418116F6F21E005EBF1A /* ViewController.h */,
+				209D418216F6F21E005EBF1A /* ViewController.m */,
+				209D417016F6F21E005EBF1A /* Supporting Files */,
+			);
+			path = DemoForTXTReader;
+			sourceTree = "<group>";
+		};
+		209D417016F6F21E005EBF1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				209D417116F6F21E005EBF1A /* DemoForTXTReader-Info.plist */,
+				209D417216F6F21E005EBF1A /* InfoPlist.strings */,
+				209D417516F6F21E005EBF1A /* main.m */,
+				209D417716F6F21E005EBF1A /* DemoForTXTReader-Prefix.pch */,
+				209D417B16F6F21E005EBF1A /* Default.png */,
+				209D417D16F6F21E005EBF1A /* Default@2x.png */,
+				209D417F16F6F21E005EBF1A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		209D419016F6F231005EBF1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				209D419416F6F231005EBF1A /* libStringDecode.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		209D419B16F6F2EF005EBF1A /* TXTReader */ = {
+			isa = PBXGroup;
+			children = (
+				209D419C16F6F2EF005EBF1A /* TXTDocument.h */,
+				209D419D16F6F2EF005EBF1A /* TXTDocument.m */,
+				209D419E16F6F2EF005EBF1A /* TXTTileView.h */,
+				209D419F16F6F2EF005EBF1A /* TXTTileView.m */,
+				209D41A016F6F2EF005EBF1A /* TXTReaderViewController.h */,
+				209D41A116F6F2EF005EBF1A /* TXTReaderViewController.m */,
+				201F695117002BC900882036 /* TXTPageViewController.h */,
+				201F695217002BC900882036 /* TXTPageViewController.m */,
+			);
+			path = TXTReader;
+			sourceTree = "<group>";
+		};
+		209D41A616F6F302005EBF1A /* StringDecode */ = {
+			isa = PBXGroup;
+			children = (
+				209D41A716F6F314005EBF1A /* StringDecode.h */,
+				209D418F16F6F231005EBF1A /* StringDecode.xcodeproj */,
+			);
+			name = StringDecode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		209D416516F6F21E005EBF1A /* DemoForTXTReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 209D418C16F6F21E005EBF1A /* Build configuration list for PBXNativeTarget "DemoForTXTReader" */;
+			buildPhases = (
+				209D416216F6F21E005EBF1A /* Sources */,
+				209D416316F6F21E005EBF1A /* Frameworks */,
+				209D416416F6F21E005EBF1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				209D419A16F6F24F005EBF1A /* PBXTargetDependency */,
+			);
+			name = DemoForTXTReader;
+			productName = DemoForTXTReader;
+			productReference = 209D416616F6F21E005EBF1A /* DemoForTXTReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		209D415E16F6F21D005EBF1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = darklinden;
+			};
+			buildConfigurationList = 209D416116F6F21D005EBF1A /* Build configuration list for PBXProject "DemoForTXTReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 209D415D16F6F21D005EBF1A;
+			productRefGroup = 209D416716F6F21E005EBF1A /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 209D419016F6F231005EBF1A /* Products */;
+					ProjectRef = 209D418F16F6F231005EBF1A /* StringDecode.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				209D416516F6F21E005EBF1A /* DemoForTXTReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		209D419416F6F231005EBF1A /* libStringDecode.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libStringDecode.a;
+			remoteRef = 209D419316F6F231005EBF1A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		209D416416F6F21E005EBF1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209D417416F6F21E005EBF1A /* InfoPlist.strings in Resources */,
+				209D417C16F6F21E005EBF1A /* Default.png in Resources */,
+				209D417E16F6F21E005EBF1A /* Default@2x.png in Resources */,
+				209D418016F6F21E005EBF1A /* Default-568h@2x.png in Resources */,
+				1C9E0B5F194BF37600836B60 /* test.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		209D416216F6F21E005EBF1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209D417616F6F21E005EBF1A /* main.m in Sources */,
+				209D417A16F6F21E005EBF1A /* AppDelegate.mm in Sources */,
+				209D418316F6F21E005EBF1A /* ViewController.m in Sources */,
+				209D41A216F6F2EF005EBF1A /* TXTDocument.m in Sources */,
+				209D41A316F6F2EF005EBF1A /* TXTTileView.m in Sources */,
+				209D41B416F70D08005EBF1A /* TXTReaderViewController.m in Sources */,
+				201F695317002BC900882036 /* TXTPageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		209D419A16F6F24F005EBF1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StringDecode;
+			targetProxy = 209D419916F6F24F005EBF1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		209D417216F6F21E005EBF1A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				209D417316F6F21E005EBF1A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		209D418A16F6F21E005EBF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		209D418B16F6F21E005EBF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		209D418D16F6F21E005EBF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoForTXTReader/DemoForTXTReader-Prefix.pch";
+				INFOPLIST_FILE = "DemoForTXTReader/DemoForTXTReader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		209D418E16F6F21E005EBF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoForTXTReader/DemoForTXTReader-Prefix.pch";
+				INFOPLIST_FILE = "DemoForTXTReader/DemoForTXTReader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		209D416116F6F21D005EBF1A /* Build configuration list for PBXProject "DemoForTXTReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209D418A16F6F21E005EBF1A /* Debug */,
+				209D418B16F6F21E005EBF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		209D418C16F6F21E005EBF1A /* Build configuration list for PBXNativeTarget "DemoForTXTReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209D418D16F6F21E005EBF1A /* Debug */,
+				209D418E16F6F21E005EBF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 209D415E16F6F21D005EBF1A /* Project object */;
+}

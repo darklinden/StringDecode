@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2020FED416F95E1900B9F0C9 /* CharDistribution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020FE9916F95E1900B9F0C9 /* CharDistribution.cpp */; };
+		2020FED516F95E1900B9F0C9 /* JpCntx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020FE9F16F95E1900B9F0C9 /* JpCntx.cpp */; };
+		2020FED616F95E1900B9F0C9 /* kludge.c in Sources */ = {isa = PBXBuildFile; fileRef = 2020FEA116F95E1900B9F0C9 /* kludge.c */; };
+		2020FED716F95E1900B9F0C9 /* LangBulgarianModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020FEA216F95E1900B9F0C9 /* LangBulgarianModel.cpp */; };
+		2020FED816F95E1900B9F0C9 /* LangCyrillicModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020FEA316F95E1900B9F0C9 /* LangCyrillicModel.cpp */; };
+		2020FED916F95E1900B9F0C9 /* LangGreekModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020FEA416F95E1900B9F0C9 /* LangGreekModel.cpp */; };
+		2020FEDA16F95E1900B9F0C9 /* LangHebrewModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020FEA516F95E1900B9F0C9 /* LangHebrewModel.cpp */; };
+		2020FEDB16F95E1900B9F0C9 /* LangHungarianModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020FEA616F95E1900B9F0C9 /* LangHungarianModel.cpp */; };
+		2020FEDC16F95E1900B9F0C9 /* LangThaiModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020FEA716F95E1900B9F0C9 /* LangThaiModel.cpp */; };
+		2020FEDD16F95E1900B9F0C9 /* nsBig5Prober.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020FEA816F95E1900B9F0C9 /* nsBig5Prober.cpp */; };
+		2020FEDE16F95E1900B9F0C9 /* nsCharSetProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020FEAA16F95E1900B9F0C9 /* nsCharSetProber.cpp */; };
+		2020FEDF16F95E1900B9F0C9 /* nsEscCharsetProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020FEAF16F95E1900B9F0C9 /* nsEscCharsetProber.cpp */; };
+		2020FEE016F95E1900B9F0C9 /* nsEscSM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020FEB116F95E1900B9F0C9 /* nsEscSM.cpp */; };
+		2020FEE116F95E1900B9F0C9 /* nsEUCJPProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020FEB216F95E1900B9F0C9 /* nsEUCJPProber.cpp */; };
+		2020FEE216F95E1900B9F0C9 /* nsEUCKRProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020FEB416F95E1900B9F0C9 /* nsEUCKRProber.cpp */; };
+		2020FEE316F95E1900B9F0C9 /* nsEUCTWProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020FEB616F95E1900B9F0C9 /* nsEUCTWProber.cpp */; };
+		2020FEE416F95E1900B9F0C9 /* nsGB2312Prober.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020FEB816F95E1900B9F0C9 /* nsGB2312Prober.cpp */; };
+		2020FEE516F95E1900B9F0C9 /* nsHebrewProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020FEBA16F95E1900B9F0C9 /* nsHebrewProber.cpp */; };
+		2020FEE616F95E1900B9F0C9 /* nsLatin1Prober.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020FEBC16F95E1900B9F0C9 /* nsLatin1Prober.cpp */; };
+		2020FEE716F95E1900B9F0C9 /* nsMBCSGroupProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020FEBE16F95E1900B9F0C9 /* nsMBCSGroupProber.cpp */; };
+		2020FEE816F95E1900B9F0C9 /* nsMBCSSM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020FEC016F95E1900B9F0C9 /* nsMBCSSM.cpp */; };
+		2020FEE916F95E1900B9F0C9 /* nsSBCharSetProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020FEC216F95E1900B9F0C9 /* nsSBCharSetProber.cpp */; };
+		2020FEEA16F95E1900B9F0C9 /* nsSBCSGroupProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020FEC416F95E1900B9F0C9 /* nsSBCSGroupProber.cpp */; };
+		2020FEEB16F95E1900B9F0C9 /* nsSJISProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020FEC616F95E1900B9F0C9 /* nsSJISProber.cpp */; };
+		2020FEEC16F95E1900B9F0C9 /* nsUniversalDetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020FEC816F95E1900B9F0C9 /* nsUniversalDetector.cpp */; };
+		2020FEED16F95E1900B9F0C9 /* nsUTF8Prober.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020FECA16F95E1900B9F0C9 /* nsUTF8Prober.cpp */; };
+		2020FEEE16F95E1900B9F0C9 /* UniversalDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 2020FED116F95E1900B9F0C9 /* UniversalDetector.m */; };
+		2020FEEF16F95E1900B9F0C9 /* WrappedUniversalDetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020FED216F95E1900B9F0C9 /* WrappedUniversalDetector.cpp */; };
+		20567B3216F6BFFF006ED8E9 /* XADString.m in Sources */ = {isa = PBXBuildFile; fileRef = 20567B3016F6BA7A006ED8E9 /* XADString.m */; };
+		20E6914616F3185B0010A1D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E6914516F3185B0010A1D7 /* Foundation.framework */; };
+		20E6914B16F3185B0010A1D7 /* StringDecode.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 20E6914A16F3185B0010A1D7 /* StringDecode.h */; };
+		20E6914D16F3185B0010A1D7 /* StringDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E6914C16F3185B0010A1D7 /* StringDecode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		20E691F216F324040010A1D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E691F116F324040010A1D7 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		20E6914016F3185B0010A1D7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				20E6914B16F3185B0010A1D7 /* StringDecode.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2020FE9816F95E1900B9F0C9 /* Big5Freq.tab */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Big5Freq.tab; sourceTree = "<group>"; };
+		2020FE9916F95E1900B9F0C9 /* CharDistribution.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CharDistribution.cpp; sourceTree = "<group>"; };
+		2020FE9A16F95E1900B9F0C9 /* CharDistribution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharDistribution.h; sourceTree = "<group>"; };
+		2020FE9B16F95E1900B9F0C9 /* EUCKRFreq.tab */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EUCKRFreq.tab; sourceTree = "<group>"; };
+		2020FE9C16F95E1900B9F0C9 /* EUCTWFreq.tab */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EUCTWFreq.tab; sourceTree = "<group>"; };
+		2020FE9D16F95E1900B9F0C9 /* GB2312Freq.tab */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GB2312Freq.tab; sourceTree = "<group>"; };
+		2020FE9E16F95E1900B9F0C9 /* JISFreq.tab */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JISFreq.tab; sourceTree = "<group>"; };
+		2020FE9F16F95E1900B9F0C9 /* JpCntx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JpCntx.cpp; sourceTree = "<group>"; };
+		2020FEA016F95E1900B9F0C9 /* JpCntx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JpCntx.h; sourceTree = "<group>"; };
+		2020FEA116F95E1900B9F0C9 /* kludge.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kludge.c; sourceTree = "<group>"; };
+		2020FEA216F95E1900B9F0C9 /* LangBulgarianModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LangBulgarianModel.cpp; sourceTree = "<group>"; };
+		2020FEA316F95E1900B9F0C9 /* LangCyrillicModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LangCyrillicModel.cpp; sourceTree = "<group>"; };
+		2020FEA416F95E1900B9F0C9 /* LangGreekModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LangGreekModel.cpp; sourceTree = "<group>"; };
+		2020FEA516F95E1900B9F0C9 /* LangHebrewModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LangHebrewModel.cpp; sourceTree = "<group>"; };
+		2020FEA616F95E1900B9F0C9 /* LangHungarianModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LangHungarianModel.cpp; sourceTree = "<group>"; };
+		2020FEA716F95E1900B9F0C9 /* LangThaiModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LangThaiModel.cpp; sourceTree = "<group>"; };
+		2020FEA816F95E1900B9F0C9 /* nsBig5Prober.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsBig5Prober.cpp; sourceTree = "<group>"; };
+		2020FEA916F95E1900B9F0C9 /* nsBig5Prober.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsBig5Prober.h; sourceTree = "<group>"; };
+		2020FEAA16F95E1900B9F0C9 /* nsCharSetProber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsCharSetProber.cpp; sourceTree = "<group>"; };
+		2020FEAB16F95E1900B9F0C9 /* nsCharSetProber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsCharSetProber.h; sourceTree = "<group>"; };
+		2020FEAC16F95E1900B9F0C9 /* nsCodingStateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsCodingStateMachine.h; sourceTree = "<group>"; };
+		2020FEAD16F95E1900B9F0C9 /* nscore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nscore.h; sourceTree = "<group>"; };
+		2020FEAE16F95E1900B9F0C9 /* nsError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsError.h; sourceTree = "<group>"; };
+		2020FEAF16F95E1900B9F0C9 /* nsEscCharsetProber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsEscCharsetProber.cpp; sourceTree = "<group>"; };
+		2020FEB016F95E1900B9F0C9 /* nsEscCharsetProber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsEscCharsetProber.h; sourceTree = "<group>"; };
+		2020FEB116F95E1900B9F0C9 /* nsEscSM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsEscSM.cpp; sourceTree = "<group>"; };
+		2020FEB216F95E1900B9F0C9 /* nsEUCJPProber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsEUCJPProber.cpp; sourceTree = "<group>"; };
+		2020FEB316F95E1900B9F0C9 /* nsEUCJPProber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsEUCJPProber.h; sourceTree = "<group>"; };
+		2020FEB416F95E1900B9F0C9 /* nsEUCKRProber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsEUCKRProber.cpp; sourceTree = "<group>"; };
+		2020FEB516F95E1900B9F0C9 /* nsEUCKRProber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsEUCKRProber.h; sourceTree = "<group>"; };
+		2020FEB616F95E1900B9F0C9 /* nsEUCTWProber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsEUCTWProber.cpp; sourceTree = "<group>"; };
+		2020FEB716F95E1900B9F0C9 /* nsEUCTWProber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsEUCTWProber.h; sourceTree = "<group>"; };
+		2020FEB816F95E1900B9F0C9 /* nsGB2312Prober.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsGB2312Prober.cpp; sourceTree = "<group>"; };
+		2020FEB916F95E1900B9F0C9 /* nsGB2312Prober.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsGB2312Prober.h; sourceTree = "<group>"; };
+		2020FEBA16F95E1900B9F0C9 /* nsHebrewProber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsHebrewProber.cpp; sourceTree = "<group>"; };
+		2020FEBB16F95E1900B9F0C9 /* nsHebrewProber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsHebrewProber.h; sourceTree = "<group>"; };
+		2020FEBC16F95E1900B9F0C9 /* nsLatin1Prober.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsLatin1Prober.cpp; sourceTree = "<group>"; };
+		2020FEBD16F95E1900B9F0C9 /* nsLatin1Prober.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsLatin1Prober.h; sourceTree = "<group>"; };
+		2020FEBE16F95E1900B9F0C9 /* nsMBCSGroupProber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsMBCSGroupProber.cpp; sourceTree = "<group>"; };
+		2020FEBF16F95E1900B9F0C9 /* nsMBCSGroupProber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsMBCSGroupProber.h; sourceTree = "<group>"; };
+		2020FEC016F95E1900B9F0C9 /* nsMBCSSM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsMBCSSM.cpp; sourceTree = "<group>"; };
+		2020FEC116F95E1900B9F0C9 /* nsPkgInt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsPkgInt.h; sourceTree = "<group>"; };
+		2020FEC216F95E1900B9F0C9 /* nsSBCharSetProber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsSBCharSetProber.cpp; sourceTree = "<group>"; };
+		2020FEC316F95E1900B9F0C9 /* nsSBCharSetProber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsSBCharSetProber.h; sourceTree = "<group>"; };
+		2020FEC416F95E1900B9F0C9 /* nsSBCSGroupProber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsSBCSGroupProber.cpp; sourceTree = "<group>"; };
+		2020FEC516F95E1900B9F0C9 /* nsSBCSGroupProber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsSBCSGroupProber.h; sourceTree = "<group>"; };
+		2020FEC616F95E1900B9F0C9 /* nsSJISProber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsSJISProber.cpp; sourceTree = "<group>"; };
+		2020FEC716F95E1900B9F0C9 /* nsSJISProber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsSJISProber.h; sourceTree = "<group>"; };
+		2020FEC816F95E1900B9F0C9 /* nsUniversalDetector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsUniversalDetector.cpp; sourceTree = "<group>"; };
+		2020FEC916F95E1900B9F0C9 /* nsUniversalDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsUniversalDetector.h; sourceTree = "<group>"; };
+		2020FECA16F95E1900B9F0C9 /* nsUTF8Prober.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsUTF8Prober.cpp; sourceTree = "<group>"; };
+		2020FECB16F95E1900B9F0C9 /* nsUTF8Prober.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsUTF8Prober.h; sourceTree = "<group>"; };
+		2020FECC16F95E1900B9F0C9 /* prcpucfg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prcpucfg.h; sourceTree = "<group>"; };
+		2020FECD16F95E1900B9F0C9 /* prmem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prmem.h; sourceTree = "<group>"; };
+		2020FECE16F95E1900B9F0C9 /* protypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = protypes.h; sourceTree = "<group>"; };
+		2020FECF16F95E1900B9F0C9 /* prtypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prtypes.h; sourceTree = "<group>"; };
+		2020FED016F95E1900B9F0C9 /* UniversalDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniversalDetector.h; sourceTree = "<group>"; };
+		2020FED116F95E1900B9F0C9 /* UniversalDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniversalDetector.m; sourceTree = "<group>"; };
+		2020FED216F95E1900B9F0C9 /* WrappedUniversalDetector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WrappedUniversalDetector.cpp; sourceTree = "<group>"; };
+		2020FED316F95E1900B9F0C9 /* WrappedUniversalDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WrappedUniversalDetector.h; sourceTree = "<group>"; };
+		20567B2F16F6BA7A006ED8E9 /* XADString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XADString.h; sourceTree = "<group>"; };
+		20567B3016F6BA7A006ED8E9 /* XADString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XADString.m; sourceTree = "<group>"; };
+		20E6914216F3185B0010A1D7 /* libStringDecode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libStringDecode.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		20E6914516F3185B0010A1D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		20E6914916F3185B0010A1D7 /* StringDecode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StringDecode-Prefix.pch"; sourceTree = "<group>"; };
+		20E6914A16F3185B0010A1D7 /* StringDecode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringDecode.h; sourceTree = "<group>"; };
+		20E6914C16F3185B0010A1D7 /* StringDecode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringDecode.m; sourceTree = "<group>"; };
+		20E691F116F324040010A1D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20E6913F16F3185B0010A1D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E691F216F324040010A1D7 /* UIKit.framework in Frameworks */,
+				20E6914616F3185B0010A1D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2020FE9516F95E1900B9F0C9 /* UniversalDetector */ = {
+			isa = PBXGroup;
+			children = (
+				2020FE9616F95E1900B9F0C9 /* universalchardet */,
+				2020FED016F95E1900B9F0C9 /* UniversalDetector.h */,
+				2020FED116F95E1900B9F0C9 /* UniversalDetector.m */,
+				2020FED216F95E1900B9F0C9 /* WrappedUniversalDetector.cpp */,
+				2020FED316F95E1900B9F0C9 /* WrappedUniversalDetector.h */,
+			);
+			path = UniversalDetector;
+			sourceTree = "<group>";
+		};
+		2020FE9616F95E1900B9F0C9 /* universalchardet */ = {
+			isa = PBXGroup;
+			children = (
+				2020FE9816F95E1900B9F0C9 /* Big5Freq.tab */,
+				2020FE9916F95E1900B9F0C9 /* CharDistribution.cpp */,
+				2020FE9A16F95E1900B9F0C9 /* CharDistribution.h */,
+				2020FE9B16F95E1900B9F0C9 /* EUCKRFreq.tab */,
+				2020FE9C16F95E1900B9F0C9 /* EUCTWFreq.tab */,
+				2020FE9D16F95E1900B9F0C9 /* GB2312Freq.tab */,
+				2020FE9E16F95E1900B9F0C9 /* JISFreq.tab */,
+				2020FE9F16F95E1900B9F0C9 /* JpCntx.cpp */,
+				2020FEA016F95E1900B9F0C9 /* JpCntx.h */,
+				2020FEA116F95E1900B9F0C9 /* kludge.c */,
+				2020FEA216F95E1900B9F0C9 /* LangBulgarianModel.cpp */,
+				2020FEA316F95E1900B9F0C9 /* LangCyrillicModel.cpp */,
+				2020FEA416F95E1900B9F0C9 /* LangGreekModel.cpp */,
+				2020FEA516F95E1900B9F0C9 /* LangHebrewModel.cpp */,
+				2020FEA616F95E1900B9F0C9 /* LangHungarianModel.cpp */,
+				2020FEA716F95E1900B9F0C9 /* LangThaiModel.cpp */,
+				2020FEA816F95E1900B9F0C9 /* nsBig5Prober.cpp */,
+				2020FEA916F95E1900B9F0C9 /* nsBig5Prober.h */,
+				2020FEAA16F95E1900B9F0C9 /* nsCharSetProber.cpp */,
+				2020FEAB16F95E1900B9F0C9 /* nsCharSetProber.h */,
+				2020FEAC16F95E1900B9F0C9 /* nsCodingStateMachine.h */,
+				2020FEAD16F95E1900B9F0C9 /* nscore.h */,
+				2020FEAE16F95E1900B9F0C9 /* nsError.h */,
+				2020FEAF16F95E1900B9F0C9 /* nsEscCharsetProber.cpp */,
+				2020FEB016F95E1900B9F0C9 /* nsEscCharsetProber.h */,
+				2020FEB116F95E1900B9F0C9 /* nsEscSM.cpp */,
+				2020FEB216F95E1900B9F0C9 /* nsEUCJPProber.cpp */,
+				2020FEB316F95E1900B9F0C9 /* nsEUCJPProber.h */,
+				2020FEB416F95E1900B9F0C9 /* nsEUCKRProber.cpp */,
+				2020FEB516F95E1900B9F0C9 /* nsEUCKRProber.h */,
+				2020FEB616F95E1900B9F0C9 /* nsEUCTWProber.cpp */,
+				2020FEB716F95E1900B9F0C9 /* nsEUCTWProber.h */,
+				2020FEB816F95E1900B9F0C9 /* nsGB2312Prober.cpp */,
+				2020FEB916F95E1900B9F0C9 /* nsGB2312Prober.h */,
+				2020FEBA16F95E1900B9F0C9 /* nsHebrewProber.cpp */,
+				2020FEBB16F95E1900B9F0C9 /* nsHebrewProber.h */,
+				2020FEBC16F95E1900B9F0C9 /* nsLatin1Prober.cpp */,
+				2020FEBD16F95E1900B9F0C9 /* nsLatin1Prober.h */,
+				2020FEBE16F95E1900B9F0C9 /* nsMBCSGroupProber.cpp */,
+				2020FEBF16F95E1900B9F0C9 /* nsMBCSGroupProber.h */,
+				2020FEC016F95E1900B9F0C9 /* nsMBCSSM.cpp */,
+				2020FEC116F95E1900B9F0C9 /* nsPkgInt.h */,
+				2020FEC216F95E1900B9F0C9 /* nsSBCharSetProber.cpp */,
+				2020FEC316F95E1900B9F0C9 /* nsSBCharSetProber.h */,
+				2020FEC416F95E1900B9F0C9 /* nsSBCSGroupProber.cpp */,
+				2020FEC516F95E1900B9F0C9 /* nsSBCSGroupProber.h */,
+				2020FEC616F95E1900B9F0C9 /* nsSJISProber.cpp */,
+				2020FEC716F95E1900B9F0C9 /* nsSJISProber.h */,
+				2020FEC816F95E1900B9F0C9 /* nsUniversalDetector.cpp */,
+				2020FEC916F95E1900B9F0C9 /* nsUniversalDetector.h */,
+				2020FECA16F95E1900B9F0C9 /* nsUTF8Prober.cpp */,
+				2020FECB16F95E1900B9F0C9 /* nsUTF8Prober.h */,
+				2020FECC16F95E1900B9F0C9 /* prcpucfg.h */,
+				2020FECD16F95E1900B9F0C9 /* prmem.h */,
+				2020FECE16F95E1900B9F0C9 /* protypes.h */,
+				2020FECF16F95E1900B9F0C9 /* prtypes.h */,
+			);
+			path = universalchardet;
+			sourceTree = "<group>";
+		};
+		20E6913916F3185B0010A1D7 = {
+			isa = PBXGroup;
+			children = (
+				20E6914716F3185B0010A1D7 /* StringDecode */,
+				20E6914416F3185B0010A1D7 /* Frameworks */,
+				20E6914316F3185B0010A1D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20E6914316F3185B0010A1D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20E6914216F3185B0010A1D7 /* libStringDecode.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20E6914416F3185B0010A1D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20E691F116F324040010A1D7 /* UIKit.framework */,
+				20E6914516F3185B0010A1D7 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20E6914716F3185B0010A1D7 /* StringDecode */ = {
+			isa = PBXGroup;
+			children = (
+				2020FE9516F95E1900B9F0C9 /* UniversalDetector */,
+				20E6914A16F3185B0010A1D7 /* StringDecode.h */,
+				20E6914C16F3185B0010A1D7 /* StringDecode.m */,
+				20567B2F16F6BA7A006ED8E9 /* XADString.h */,
+				20567B3016F6BA7A006ED8E9 /* XADString.m */,
+				20E6914816F3185B0010A1D7 /* Supporting Files */,
+			);
+			path = StringDecode;
+			sourceTree = "<group>";
+		};
+		20E6914816F3185B0010A1D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20E6914916F3185B0010A1D7 /* StringDecode-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20E6914116F3185B0010A1D7 /* StringDecode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20E6915016F3185B0010A1D7 /* Build configuration list for PBXNativeTarget "StringDecode" */;
+			buildPhases = (
+				20E6913E16F3185B0010A1D7 /* Sources */,
+				20E6913F16F3185B0010A1D7 /* Frameworks */,
+				20E6914016F3185B0010A1D7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StringDecode;
+			productName = StringDecode;
+			productReference = 20E6914216F3185B0010A1D7 /* libStringDecode.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20E6913A16F3185B0010A1D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = darklinden;
+			};
+			buildConfigurationList = 20E6913D16F3185B0010A1D7 /* Build configuration list for PBXProject "StringDecode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 20E6913916F3185B0010A1D7;
+			productRefGroup = 20E6914316F3185B0010A1D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20E6914116F3185B0010A1D7 /* StringDecode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20E6913E16F3185B0010A1D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E6914D16F3185B0010A1D7 /* StringDecode.m in Sources */,
+				20567B3216F6BFFF006ED8E9 /* XADString.m in Sources */,
+				2020FED416F95E1900B9F0C9 /* CharDistribution.cpp in Sources */,
+				2020FED516F95E1900B9F0C9 /* JpCntx.cpp in Sources */,
+				2020FED616F95E1900B9F0C9 /* kludge.c in Sources */,
+				2020FED716F95E1900B9F0C9 /* LangBulgarianModel.cpp in Sources */,
+				2020FED816F95E1900B9F0C9 /* LangCyrillicModel.cpp in Sources */,
+				2020FED916F95E1900B9F0C9 /* LangGreekModel.cpp in Sources */,
+				2020FEDA16F95E1900B9F0C9 /* LangHebrewModel.cpp in Sources */,
+				2020FEDB16F95E1900B9F0C9 /* LangHungarianModel.cpp in Sources */,
+				2020FEDC16F95E1900B9F0C9 /* LangThaiModel.cpp in Sources */,
+				2020FEDD16F95E1900B9F0C9 /* nsBig5Prober.cpp in Sources */,
+				2020FEDE16F95E1900B9F0C9 /* nsCharSetProber.cpp in Sources */,
+				2020FEDF16F95E1900B9F0C9 /* nsEscCharsetProber.cpp in Sources */,
+				2020FEE016F95E1900B9F0C9 /* nsEscSM.cpp in Sources */,
+				2020FEE116F95E1900B9F0C9 /* nsEUCJPProber.cpp in Sources */,
+				2020FEE216F95E1900B9F0C9 /* nsEUCKRProber.cpp in Sources */,
+				2020FEE316F95E1900B9F0C9 /* nsEUCTWProber.cpp in Sources */,
+				2020FEE416F95E1900B9F0C9 /* nsGB2312Prober.cpp in Sources */,
+				2020FEE516F95E1900B9F0C9 /* nsHebrewProber.cpp in Sources */,
+				2020FEE616F95E1900B9F0C9 /* nsLatin1Prober.cpp in Sources */,
+				2020FEE716F95E1900B9F0C9 /* nsMBCSGroupProber.cpp in Sources */,
+				2020FEE816F95E1900B9F0C9 /* nsMBCSSM.cpp in Sources */,
+				2020FEE916F95E1900B9F0C9 /* nsSBCharSetProber.cpp in Sources */,
+				2020FEEA16F95E1900B9F0C9 /* nsSBCSGroupProber.cpp in Sources */,
+				2020FEEB16F95E1900B9F0C9 /* nsSJISProber.cpp in Sources */,
+				2020FEEC16F95E1900B9F0C9 /* nsUniversalDetector.cpp in Sources */,
+				2020FEED16F95E1900B9F0C9 /* nsUTF8Prober.cpp in Sources */,
+				2020FEEE16F95E1900B9F0C9 /* UniversalDetector.m in Sources */,
+				2020FEEF16F95E1900B9F0C9 /* WrappedUniversalDetector.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		20E6914E16F3185B0010A1D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		20E6914F16F3185B0010A1D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20E6915116F3185B0010A1D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DSTROOT = /tmp/StringDecode.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StringDecode/StringDecode-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		20E6915216F3185B0010A1D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DSTROOT = /tmp/StringDecode.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StringDecode/StringDecode-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20E6913D16F3185B0010A1D7 /* Build configuration list for PBXProject "StringDecode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20E6914E16F3185B0010A1D7 /* Debug */,
+				20E6914F16F3185B0010A1D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20E6915016F3185B0010A1D7 /* Build configuration list for PBXNativeTarget "StringDecode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20E6915116F3185B0010A1D7 /* Debug */,
+				20E6915216F3185B0010A1D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20E6913A16F3185B0010A1D7 /* Project object */;
+}
